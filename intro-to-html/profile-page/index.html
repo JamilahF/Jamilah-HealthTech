@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Dr Jamilah's HealthTech Profile</title> 
+    <style> 
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* Header */
+  header {
+    background-color: #036;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2.2em;
+  }
+
+  header h2 {
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: 300;
+    color: #cfd8dc;
+  } 
+  
+  /* Main Section */
+  section {
+    background-color: white;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  img {
+    display: block;
+    margin: 0 auto 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  li {
+    padding: 5px 0;
+  }
+
+  /* Skills Section */
+  .skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .skills-section ul {
+    flex: 1;
+  }
+
+  .skills-section h4 {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #2d3e50;
+    text-decoration: underline;
+  }
+
+  /* Form Section */
+  form {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  
+  form input[type="text"],
+  form input[type="email"],
+    form textarea {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+ form textarea { 
+  resize: vertical;
+  }
+
+  form input[type="submit"],
+  button {
+      background-color: green;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+  form input[type="submit"]:hover,
+  button:hover {
+      background-color: #45a049;
+    }
+
+  /* Footer */
+  footer {
+    background-color: #555;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 0.95em;
+  }
+
+  footer a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  footer i {
+    margin-right: 5px;
+  } 
+
+ion-icon[name="mail"] {
+  color: #DB4437; /* Gmail red */ 
+  font-size: 34px; 
+  margin: 10px;
+}
+
+ion-icon[name="logo-github"] {
+  color: #6e5494; /* GitHub purple */ 
+  font-size: 35px; 
+  margin: 10px;
+}
+
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 1.8em;
+    }
+
+    header h2 {
+      font-size: 1em;
+    }
+
+    .skills-section {
+      flex-direction: column;
+    }
+  }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1> NAKATO NAKIMULI JAMILAH'S PROFILE</h1> 
+        <h2>Quietly Building for Impact-in Clinics and Code</h2>
+    </header> 
+    <section>
+        <img src="images/Snapchat-2135030428 (2).jpg" alt="This is my Profile Image" width="200px" height="200px"> 
+        <p> I am a Clinical Officer and a continously growing Web Designer with a deep passion for both healthcare and technology. </p>
+        <p> I completed the Foundations of Software Development program at Refactory Skilling Academy and I am currently advancing through their Certificate in Software Development with Javascript program.  I thrive at the intersection of health and tech — driven by curiosity, compassion, and a desire to quietly create impact. Whether it’s diagnosing a condition or developing clean, responsive user interfaces, I bring precision and purpose to everything I do. </p> 
+        <p>My long-term goal is to use these skills to earn well-paying remote work, support my family, and contribute meaningfully to both the digital and healthcare worlds.</p>  
+        
+        <ul>
+            <li><h1>Some of my Skills and Competences</h1></li> 
+            <li> Clinical Diagnosis And Patient Management</li>
+            <li> HTML & CSS</li>
+            <li> Responsive Web Design Using Webflow & VS Code </li> 
+            <li> Human Centered Design (HCD) </li>
+            <li> Microsoft 365 & Google Suite </li> 
+            <li> Wireframing (Figma, Wireframe.cc) </li> 
+            <li> Communication & Teamwork </li> 
+            <li> Javascript (in training) </li> 
+        </ul> 
+    </section>
+
+    <section>
+        <h3> Let's Connect - For Health, Code, and Collaboration</h3> 
+        <form> 
+            <label for="name">Your Name:</label><br> 
+            <input type="text" id="name" name="name" placeholder="Jane or John Doe" required><br> 
+
+            <label for="email">Your Email:</label><br> 
+            <input type="email" id="email" name="email" placeholder="name@example.com" required> 
+
+            <br><label for="message">Your Message:</label><br> 
+            <textarea id="message" name="message" rows="5" cols="30" placeholder="Type your message..."required></textarea>
+            <br>
+            <input type="submit" value="Send Message">
+            <br> 
+        </form>
+    </section> 
+
+    <footer> 
+        <p>&copy; 2025 Nakato Nakimuli Jamilah. All rights reserved.</p>
+        <p>Quietly Building for Impact-in Clinics and Code.</p> 
+        <p> 
+          <a href="mailto:nakato2jamilah@gmail.com"><ion-icon name="mail"></ion-icon><br>Email Me!</a> 
+          <a href="https://github.com/JamilahF" target="_blank"><ion-icon name="logo-github"></ion-icon></a> 
+        </p>
+    </footer>
+</body>
+</html>
