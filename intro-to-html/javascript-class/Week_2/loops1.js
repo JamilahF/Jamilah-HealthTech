@@ -29,7 +29,7 @@ while (z<6) {
     z++;
 };
 
-let correctPassword = 'Jamaica123';
+let correctPassword = 'Baliika325';
 let password;
 while (password != correctPassword){
 password = prompt("enter your password");
@@ -42,4 +42,5 @@ SpeechRecognitionAlternative("Access Granted")
 // do{
 
 // }while();
+
 

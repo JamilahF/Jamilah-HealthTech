@@ -8,12 +8,14 @@
 // //     //this part of the code runs if truthy
 // // }
 
+
 // // //if else-- do this or that
 // // if(condition){
 // //     //this part of the code runs if truthy
 // // }else{
 // //     //this part of the code runs if falsy
 // // }
+
 
 // // //if else if else||alot of choices
 // // if(condition){
@@ -22,8 +24,10 @@
 // //     //this part of the code runs if condition2 is truthy
 // // }else{}
 
+
 // // //switch ||for menus like gears of cars
 // // switch(expression){
+
 
 // //     case value1:
 // //         //drive
@@ -36,10 +40,11 @@
 // // }
 
 
+
 // // //ternary operator
 // // //shorter if else
 // // condition ? expressionIfTrue: expressionIffalse;
-// // //nly use if mastered
+// // //only use if you mastered
 
 // //If example
 // let number = 3;
@@ -90,3 +95,4 @@ switch (true){
  default:
 
 }
+

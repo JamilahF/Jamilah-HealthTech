@@ -15,7 +15,7 @@ console.log(`This is line "one"
 //String interpolation ||You can write javascript in the string inside ${}
 console.log(`This is line one This is line 2 ${20+2}`)
 
-let name = "Namuli";
+let name = "kimuli";
 let age = 8;
-let message =`Hello Ariella ${name} you are ${age} years old. Next year you will be ${age+=1}`;
+let message =`Hello Bahiga ${name} you are ${age} years old. Next year you will be ${age+=1}`;
 console.log(message);

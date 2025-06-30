@@ -1,4 +1,4 @@
-const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+const ages = [22, 19, 24, 23, 22, 20, 26, 25, 24, 19];
 
 // Sort array in ascending order
 const ascendingOrder = function (a, b) {   //const ascendingOrder = (a,b) => a-b || Function can be written this way
@@ -76,3 +76,4 @@ if (absDiff1 < absDiff2) {
 } else{
     alert(`Both are equally close to the average`);
 };
+

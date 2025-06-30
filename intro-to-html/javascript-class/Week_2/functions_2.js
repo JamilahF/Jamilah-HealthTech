@@ -1,4 +1,4 @@
-// let name = "ssali";
+// let name = "jamilah";
 // function greetFarmer() {
 
 //     console.log("Hello, welcome to Young4Chicks", name);
@@ -6,7 +6,7 @@
 // greetFarmer();
 
 // function submitRequest() {
-//     let lastName = "jamilah";
+//     let lastName = "jaques";
 //     console.log("Your chick request has been submitted", lastName);
 // };
 
@@ -134,3 +134,4 @@ switch (day) {
     default:
         console.log("Invalid day");
 }
+

@@ -61,3 +61,4 @@ let farmer={
 console.log(farmer.age)
 farmer.greetFarmer();
 farmer.chickRequest(700);
+

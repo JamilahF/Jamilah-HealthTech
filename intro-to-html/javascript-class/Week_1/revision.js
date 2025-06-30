@@ -1,25 +1,25 @@
-let name="ssali";
+let name="nakato";
 console.log(name);
 function greet(){
     console.log("hello",name);
 };
 greet();
 let farmer={
-    farmerName: 'Ariella',
-    NIN: 'CHMKJ87890NHJ',
-    age: 80,
-    homeDistrict: 'Bukomansimbi',
+    farmerName: 'Rayyan',
+    NIN: 'CHMKP68312QSC',
+    age: 18,
+    homeDistrict: 'Mbalwa',
     
 };
 console.log(farmer);
 
-let classMates=['namuli','nakato','masanku','munozi','kakeeto',45,76,"89",true,76];
+let classMates=['agatha','kizza','nkalubo','kalungi','mercy',55,44,"90",true,87];
 console.log(classMates);
 
 let car={
-    carName:'subaru',
-    year: 1998,
-    modelNo:123456,
+    carName:'porsche',
+    year: 2007,
+    modelNo:712967,
     used: true,
 }
 console.log(car);
@@ -32,15 +32,16 @@ console.log(add(5,6));
 function subtract(y,x){
     return y-x;
 };
-console.log(subtract(40,5));
+console.log(subtract(13,7));
 
 function divide(w,p){
     return w/p;
 };
-console.log(divide(59,9));
+console.log(divide(96,7));
 
 const totalBill=(j,k,l)=> j+k+l;
-console.log(totalBill(5,10,20));
+console.log(totalBill(9,12,35));
 
 const multiplayaa=(we,re,de)=>we*re*de;
-console.log(multiplayaa(4,5,10));
+console.log(multiplayaa(9,18,26));
+

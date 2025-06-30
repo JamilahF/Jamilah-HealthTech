@@ -1,15 +1,15 @@
 // // Assignment operator
-// let firstName="Lwanga";
+// let firstName="Nakato";
 
 // //Arithmetic operators
 // x=y;
 // x=x+y;
 // x+=y; //This is the same as x=x+y
-// total1+=20; //same as total=total+20*/
+// total1+=90; //same as total=total+50*/
 
-// let total =20;
-// //total+=30;
-// total%=20
+// let total =10;
+// //total+=40;
+// total%=60
 // console.log(total);
 // let chicks=100;
 // const price=1650;
@@ -29,7 +29,7 @@
 // Or ||, 
 // Not !,
 
-let farmerAge=27;
+let farmerAge=26;
 if (farmerAge >= 20 && farmerAge<= 30){
     console.log("Eligible for chicks");
 }
@@ -40,6 +40,7 @@ console.log(a==b); //loose equal returns true in this case
 
 //Concatenation
 // joining two words together
-let farmerName="vivian";
+let farmerName="Beatrice";
 let chickType ="Broilers";
 console.log("Goodmorning"+ " " + farmerName + " "+"You have ordered for:" +" "+ chickType);
+

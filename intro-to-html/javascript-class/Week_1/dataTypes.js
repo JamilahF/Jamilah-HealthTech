@@ -1,4 +1,4 @@
-console.log(typeof 'Sanyu');
+console.log(typeof 'Jamilah');
 console.log(typeof yes);
 console.log(typeof origin);
 console.log(typeof 20);
@@ -11,27 +11,24 @@ let height;
 
 let gender="Female";
 let weight=60;
-let NIN = "CM89UUOKJGFRED";
+let NIN = "CF89UUOKJGFRED";
 let status=true;
 
 let candidate={
-    firstName :'Shadiah',
-    lastName: 'Namutebi',
-    maritalStatus: 'Single',
+    firstName :'Hamzah',
+    lastName: 'Basiime',
+    maritalStatus: 'Married',
     country: 'Uganda',
-    age: 20,
+    age: 23,
 };
 
 console.log(candidate);
 
-let candidateInfo=['David', 'Michael','Single','Uganda', '26'];
+let candidateInfo=['Martin', 'Kiseera','Single','Uganda', '35'];
 
 console.log(candidateInfo);
 
-let myAge = 25;
-let yourAge= 30;
+let myAge = 21;
+let yourAge= 29;
 console.log("I am", myAge ,"years old.");
 console.log("you are", yourAge ,"years old");
-
-
-

@@ -1,5 +1,5 @@
-/*let studentName="Jane"; //this is a string
-let age=20; //This is a number
+/*let studentName="Abdul"; //this is a string
+let age=25; //This is a number
 let isRegistered=true; //This is a boolean
 let favoriteColor=null; //This is null
 let phoneNumber; //This is undefined
@@ -18,33 +18,33 @@ let isApproved = false; //Boolean datatype
 
 /*
 //Farmer information
-let farmerName = "Mawangaazi Joseph";
-let farmerAge = 30;
+let farmerName = "Busingye Gary";
+let farmerAge = 29;
 
 console.log(typeof "farmerNIN"); //finding data type */
 
 //Chick requests
-let typeOfChick = "Broiler";
+let typeOfChick = "Croiler";
 
 //NON Primitive Datatype
 
 //Array -List
-let chickType = ['Broiler', 'Layer'];  
-let farmerName =['Nassanga','Opio','Banya','Otim', 'Nakkereti'];
+let chickType = ['Croiler', 'Duopurpose'];  
+let farmerName =['Jackson','Hope','Hudhaifah','Rayyan', 'Yosam'];
 let number=[1,2,3];
 
 
 //Object
 let farmer = {
-     name:'Mawangaazi Joseph',
-     age:30,
-     NIN: 'CM8690UJYHI9890',
+     name:'Busingye Gary',
+     age:29,
+     NIN: 'CM2605RHGY87300',
 };
 console.log(farmer);
 
 //Object 2
 let chickStock={
-    type: 'Broiler',
+    type: 'Croiler',
     age:'2 weeks',
     breed: 'exotic',
 };
@@ -58,7 +58,4 @@ console.log(chickStock);
 
 /*Comments can make code readable
 easy to reuse and informative*/
-
-
-
 

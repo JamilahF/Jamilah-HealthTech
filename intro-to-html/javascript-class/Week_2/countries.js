@@ -29,3 +29,4 @@ const secondHalf=countries.slice(midIndex);
 
 console.log(`First half: ${firstHalf}`);
 console.log(`Second half: ${secondHalf}`);
+
