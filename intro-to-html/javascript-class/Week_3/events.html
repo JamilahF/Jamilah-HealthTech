@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+
+<body>
+    <h1>Events Week 3</h1>
+    <button id="btn_1">Test</button>
+
+    <button id="submitButton">Submit</button>
+
+    <form action="" id="myForm">
+        <label for="username">Enter UserName</label>
+        <input type="text" id="username" name="username">
+        <button type='submit'>Submit</button>
+    </form>
+
+    <script>
+        const button = document.getElementById('btn_1');
+        //Syntax - element.addEventListener(eventType, handlerFunction);
+        button.addEventListener('click', function () { alert('Whagwaan JavaScript') })
+
+        const button1 = document.getElementById('submitButton');
+        function handleSubmit() {
+            alert('your request has been received')
+        }
+        button1.addEventListener('click', handleSubmit);
+        //  function twoThings(callback){   //Asynchronous Function we dont put () on this to stop it from running before we want it to run
+        //     callback()
+        //  }
+
+        document.addEventListener('click', function (event) {
+            //game developers use this to know where the click happened
+            console.log(event.clientX, event.clientY)
+        });
+        document.addEventListener('key', function (event) {
+            //how to detect the key that was pressed
+            console.log(event.target);
+        })
+
+        //prevent form from submitting automatically
+        const form = document.getElementById('myForm')
+        form.addEventListener('submit', function (event) {
+            event.preventDefault
+            console.log('automatic form submission blocked')
+        })
+    </script>
+</body>
+
+</html>

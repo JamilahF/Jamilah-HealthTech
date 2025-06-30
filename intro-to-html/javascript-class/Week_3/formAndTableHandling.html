@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Young 4 Chicks Request Form</h1>
+    <form action="" id="chicksForm">
+        <label for="farmerName">Farmer Name</label>
+        <input type="text" id="farmerName">
+
+        <label for="farmerAge" id="farmerAge">Farmer Age</label>
+        <input type="number" placeholder="20-30 years">
+
+        <label for="quantity" id="quantity">Number of Chicks</label>
+        <input type="number" id="quantity" placeholder="Enter number of chicks">
+        <label for="typeOfChicks">Type of Chicks</label>
+        <select name="typeOfChicks" id="typeOfChicks">
+            <option value="">Select Chick type</option>
+            <option value="broiler">Broiler</option>
+            <option value="layer">Layer</option>
+        </select>
+        <button type="submit">Submit Request</button>
+    </form>
+
+    <form action="" id="form2">
+
+    </form>
+    <form action="" id="form3">
+
+    </form>
+
+    <h1>Admin Dashboard</h1>
+    <table id="tbl1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Year</th>
+        </tr>
+
+    </table>
+
+
+    <!-- <script src="/formAndTableHandling.js"></script> -->
+    <script>
+        //JavaScript Code for the form
+        console.log(document.forms[1].id);
+        const firstForm = document.getElementById('form1');
+
+        //Code for the table
+        const table = document.getElementById('tbl1');
+        let newRow = table.insertRow();
+        let cell1 = newRow.insertCell(0);
+        let cell2 = newRow.insertCell(1);
+        let cell3 = newRow.insertCell(2);
+        cell1.textContent = "Ssali";
+        cell2.textContent = 24;
+        cell3.textContent = '2024';
+    </script>
+</body>
+
+</html>

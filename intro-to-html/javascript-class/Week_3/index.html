@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+</head>
+
+<body>
+    <h1 class="title" id="heading_1">First Heading</h1>
+    <h1 id="heading_2">Second Heading</h1>
+    <h1 class="heading" id="heading_3">Third Heading</h1>
+    <h1></h1>
+
+
+    <script src="DOM.js"></script>
+    <script>
+         let subHeading;
+
+        for(let i=0; i<10; i++){
+        subHeading=document.createElement('h2');
+        subHeading.className='heading';
+        subHeading.id='kampala';
+        subHeading.textContent='Eno ye Kampala City';
+        subHeading.style.color='green';
+        subHeading.style.fontFamily='verdana';
+        subHeading.style.fontSize='15px';
+        document.body.appendChild(subHeading);
+        };
+       
+      
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Objects</title>
+</head>
+
+<body>
+
+    <p id="demo"></p>
+    <h1>JS Objects
+    </h1>
+    <h2>Displaying Objects</h2>
+
+
+    <script>
+        let farmer = {
+            name: "ssali",
+            age: 30,
+            isRegistered: false,
+
+            greetFarmer: function () {
+                console.log("Welcome" + " " + this.name + " " + " ")
+            },
+            chickRequest: function (quantity) {
+                console.log(this.name + " " + "requested for" + " " + quantity + " " + "chicks")
+            }
+        };
+        //display properties
+        document.getElementById("demo").innerHTML=farmer.name
+    </script>
+</body>
+
+</html>
